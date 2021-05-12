@@ -22,7 +22,7 @@ def arg_parser_resolver():
 
 
 def main():
-    """Find, and print, for files having code lines above a given value."""
+    """Find, and print, for files having comma in sequence."""
     args = arg_parser_resolver()
     # parses through files and saves to a dict
     file_names_with_size = {}
